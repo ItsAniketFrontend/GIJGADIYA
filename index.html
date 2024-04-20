@@ -1,48 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GIJGADIYA</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
-  </head>
-  <body>
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- Demo styles -->
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+       padding-bottom: 10px;
+      /* text-align: center; */
+      background: #fff;
+      display: flex;
+      justify-content: start;
+      /* align-items: center; */
+      flex-direction: column;
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 400px;
+      object-fit: fill;
+    }
+  </style>
+</head>
+
+<body>
     <!-- Navbar -->
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="Images/Logo.png" width="150" height="90" alt="">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item px-4">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link" href="#">Services</a>
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link" href="#">Gallery</a>
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link" href="#">Our Work</a>
-                  </li>
-                  <li class="nav-item px-4">
-                    <a class="nav-link" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#">
+                    <img src="Images/Logo.png" width="150" height="90" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">Our Work</a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -54,16 +86,16 @@
         <section class="hero-banner">
             <div class="container">
                 <div class="row">
-                    <div class=" col-lg-6 col-12 d-flex justify-content-center flex-column flex-column">
+                    <div class=" col-lg-6 col-12  py-1 d-flex justify-content-center flex-column flex-column">
                         <h6>BRILLIANCE AT ITS BEST....</h6>
-                        <h1>Premium UPVC Panels and 
+                        <h1>Premium UPVC Panels and
                             Profiles </h1>
                         <p>UPVC Profiles, Windows , Doors Wholesale manufacturer and distributor in India.</p>
                         <button><a href="">GET A QUOTE <img src="Images/button-icon.png" alt=""></a></button>
                     </div>
-                    <div class=" col-lg-6 col-12">
+                    <div class=" col-lg-6 col-12 py-1 ">
                         <div class="img-wrap">
-                            <img src="Images/hero-banner.png" class="img-fluid" alt="">
+                            <img src="Images/gallery-2.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -75,13 +107,15 @@
         <section class="who">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6 col-12 col-xl-6">
-                        <img src="Images/who-we.png" class="img-fluid" alt="">
+                    <div class="col-lg-6 col-12 col-xl-6 py-1" >
+                        <img src="Images/gallery-3.png" class="img-fluid" alt="">
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-12 d-flex justify-content-center flex-column">
+                    <div class="col-xl-6 col-lg-6 col-12  py-1 d-flex justify-content-center flex-column">
                         <h6>About Us</h6>
                         <h2>Who We Are?</h2>
-                        <p>Established in the year "2021" in Jaipur, Rajasthan. We "Gijgadiya Industries Private Limited" engaged as the foremost Manufacturer, Wholesaler, Trader of UPVC Window, UPVC Casement Door, UPVC Sliding Window any more such Products.</p>
+                        <p>Established in the year "2021" in Jaipur, Rajasthan. We "Gijgadiya Industries Private
+                            Limited" engaged as the foremost Manufacturer, Wholesaler, Trader of UPVC Window, UPVC
+                            Casement Door, UPVC Sliding Window any more such Products.</p>
                         <div class="d-flex gap-5">
                             <p><img src="Images/SVG.png" alt="">Wide Variety of Designs</p>
                             <p><img src="Images/SVG.png" alt="">Top- Notch Quality</p>
@@ -101,8 +135,51 @@
                         <h2>Products We Offer</h2>
                     </div>
                     <div class="col-lg-8 col-12">
-                        <p>Offering you a complete choice of products which include 3 Track UPVC Windows, UPVC Slide Fold Window, 2 Track UPVC Window, 2.5 Track UPVC Window, UPVC Vertical Window and UPVC Casement Door.</p>
-                    </div>  
+                        <p>Offering you a complete choice of products which include 3 Track UPVC Windows, UPVC Slide
+                            Fold Window, 2 Track UPVC Window, 2.5 Track UPVC Window, UPVC Vertical Window and UPVC
+                            Casement Door.</p>
+                    </div>
+                      <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="Images/gallery-1.png" alt="">
+                                <h3>UPVC Profile</h3>
+                                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna</h4>
+                                <button><a href="">Get a Quote</a></button>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Images/gallery-2.png" alt="">
+                                <h3>UPVC Profile</h3>
+                                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna</h4>
+                                <button><a href="">Get a Quote</a></button>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Images/gallery-3.png" alt="">
+                                <h3>UPVC Profile</h3>
+                                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna</h4>
+                                <button><a href="">Get a Quote</a></button>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Images/gallery-4.png" alt="">
+                                <h3>UPVC Profile</h3>
+                                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna</h4>
+                                <button><a href="">Get a Quote</a></button>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="Images/gallery-5.png" alt="">
+                                <h3>UPVC Profile</h3>
+                                <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+tempor invidunt ut labore et dolore magna</h4>
+                                <button><a href="">Get a Quote</a></button>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -118,56 +195,54 @@
                     </div>
                     <ul class="nav nav-pills mb-3 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">UPVC</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">UPVC</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Aluminium</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Aluminium</button>
                         </li>
                     </ul>
                     <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <img src="Images/gallery.png"  class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery2.png" class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery3.png" class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery4.png" class="small-images" alt="">
-                                        </div>
-                                    </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-1.png" width="100%" height="100%" alt="">
                                 </div>
-                                <div class="col-lg-5">
-                                    <img src="Images/gallery5.png" class="large-images" alt="">
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-2.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-3.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-4.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-5.png" width="100%" height="100%" alt="">
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab" tabindex="0">
                             <div class="row">
-                                <div class="col-lg-7">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <img src="Images/gallery.png"  class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery2.png" class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery3.png" class="small-images" alt="">
-                                        </div>
-                                        <div class="col-6">
-                                            <img src="Images/gallery4.png" class="small-images" alt="">
-                                        </div>
-                                    </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-1.png" width="100%" height="100%" alt="">
                                 </div>
-                                <div class="col-lg-5">
-                                    <img src="Images/gallery5.png" class="large-images" alt="">
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-2.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-3.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-4.png" width="100%" height="100%" alt="">
+                                </div>
+                                <div class="col-lg-4 col-6 p-1">
+                                    <img src="Images/gallery-5.png" width="100%" height="100%" alt="">
                                 </div>
                             </div>
                         </div>
@@ -238,7 +313,7 @@
                         <div class="content-wrap d-flex flex-column">
                             <h5>0K</h5>
                             <h4>Happy Customers</h4>
-                        </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -250,23 +325,21 @@
                 <div class="row">
                     <div class="col-12">
                         <h6>Get Quote</h6>
-                        <h2>Brands Who Worked 
+                        <h2>Brands Who Worked
                             With Us</h2>
                     </div>
                     <div class="box">
                         <div class="d-flex justify-content-evenly flex-wrap pb-3">
-                            <img src="Images/logo-1.png" class="img-fluid" alt="">
-                            <img src="Images/logo-2.png" class="img-fluid" alt="">
-                            <img src="Images/logo-3.png" class="img-fluid" alt="">
-                            <img src="Images/logo-4.png" class="img-fluid" alt="">
-                            <img src="Images/logo-5.png" class="img-fluid" alt="">
+                            <img src="Images/clients.png" width="180" alt="">
+                            <img src="Images/clients-2.png" width="180" alt="">
+                            <img src="Images/clients-3.png" width="180" alt="">
+                            <img src="Images/clients-5.png" width="180" alt="">
                         </div>
                         <div class="d-flex justify-content-evenly flex-wrap pt-3">
-                            <img src="Images/logo-1.png" class="img-fluid" alt="">
-                            <img src="Images/logo-2.png" class="img-fluid" alt="">
-                            <img src="Images/logo-3.png" class="img-fluid" alt="">
-                            <img src="Images/logo-4.png" class="img-fluid" alt="">
-                            <img src="Images/logo-5.png" class="img-fluid" alt="">
+                            <img src="Images/clients-6.png" width="180" alt="">
+                            <img src="Images/clients-7.png" width="180" alt="">
+                            <img src="Images/clients-8.png" width="180" alt="">
+                            <img src="Images/clients-9.png" width="180" alt="">
                         </div>
                     </div>
                 </div>
@@ -276,10 +349,84 @@
 
         <!-- form -->
         <section class="form">
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h6>Get Quote</h6>
+                        <h2>Do You Have Any Questions?
+                            We’ll Be Happy To Assist!</h2>
+                    </div>
+                    <div class="col-lg-5 col-12 py-4">
+                        <img src="Images/contact-image.png" alt="">
+                    </div>
+                    <div class="col-lg-7 col-12 py-4 d-flex justify-content-center flex-column">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-12 mb-2">
+                                    <input type="text" placeholder="Full Name">
+                                </div>
+                                <div class="col-12 mb-2">
+                                    <input type="number" maxlength="10" minlength="10" placeholder="Phone Number">
+                                </div>
+                                <div class="col-12 mb-2">
+                                    <input type="email" placeholder="Email Address">
+                                </div>
+                                <div class="col-12 mb-2">
+                                    <input type="text" placeholder="Services">
+                                </div>
+                                <div class="col-12 mb-2">
+                                    <textarea name="" id="" rows="5"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button>Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <img src="Images/Logo.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+        breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
