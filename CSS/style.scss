@@ -20,6 +20,9 @@ nav{
 .hero-banner{
     padding: 110px 0px;
     background-color: #434e6e;
+    @media (max-width:991px) {
+        padding: 50px 0px;
+    }
     h6{
         font-family: Rubik;
         font-size: 16px;
@@ -69,6 +72,9 @@ nav{
 
 .who{
     padding: 140px 0px;
+    @media (max-width:991px) {
+        padding: 50px 0px;
+    }
     h6{
         font-family: Rubik;
         font-size: 16px;
@@ -162,6 +168,9 @@ nav{
 
 .gallery{
     padding: 80px 0px;
+    @media (max-width:991px) {
+        padding: 50px 0px;
+    }
     h6{
         font-family: Rubik;
         font-size: 10.67px;
