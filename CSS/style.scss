@@ -257,6 +257,9 @@ nav{
             background-color: #E3CCA1;
             padding: 20px 100px;
             border: 8px solid #FFFFFF;
+            @media (max-width:991px) {
+                padding: 20px 55px;
+            }
             a{
                 font-family: Rajdhani;
                 font-size: 20px;
