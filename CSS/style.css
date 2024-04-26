@@ -219,7 +219,8 @@ nav li a {
   text-align: center;
   color: #434E6E;
 }
-.gallery .nav-pills .nav-link.active, .gallery .nav-pills .show > .nav-link {
+.gallery .nav-pills .nav-link.active,
+.gallery .nav-pills .show > .nav-link {
   color: #434E6E;
   background-color: #E3CCA1;
   padding: 7px 20px;

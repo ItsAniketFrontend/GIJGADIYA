@@ -1,13 +1,14 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
 }
 
-nav{
+nav {
     background-color: #434E6E;
-    li{
-        a{
+
+    li {
+        a {
             font-family: Rubik;
             font-size: 18px !important;
             font-weight: 500 !important;
@@ -17,13 +18,15 @@ nav{
     }
 }
 
-.hero-banner{
+.hero-banner {
     padding: 50px 0px;
     background-color: #434e6e;
+
     @media (max-width:991px) {
         padding: 50px 0px;
     }
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 500;
@@ -32,19 +35,22 @@ nav{
         text-align: left;
         color: #E3CCA1;
     }
-    h1{
+
+    h1 {
         font-family: Rajdhani;
         font-size: 70px;
         font-weight: 600;
         line-height: 68px;
         text-align: left;
         color: #FFFFFF;
+
         @media (max-width:991px) {
             font-size: 32px;
             line-height: 32px;
         }
     }
-    p{
+
+    p {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
@@ -52,12 +58,14 @@ nav{
         text-align: left;
         color: #D9DBE2;
     }
-    button{
+
+    button {
         background-color: #E3CCA1;
         padding: 5px 20px;
         border: none;
         width: fit-content;
-        a{
+
+        a {
             font-family: Rubik;
             font-size: 15px;
             font-weight: 500;
@@ -67,22 +75,26 @@ nav{
             text-decoration: none;
         }
     }
-    .img-wrap{
+
+    .img-wrap {
         display: flex;
         align-items: center;
         flex-direction: column;
-        img{
+
+        img {
             border: 3px solid #FFFFFF;
         }
     }
 }
 
-.who{
+.who {
     padding: 140px 0px;
+
     @media (max-width:991px) {
         padding: 50px 0px;
     }
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 500;
@@ -91,7 +103,8 @@ nav{
         text-align: left;
         color: #E3CCA1;
     }
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
@@ -100,7 +113,8 @@ nav{
         text-align: left;
         color: #434E6E;
     }
-    p{
+
+    p {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
@@ -111,10 +125,11 @@ nav{
     }
 }
 
-.products{
+.products {
     padding: 104px 0px;
     background-color: #434E6E;
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 500;
@@ -123,7 +138,8 @@ nav{
         text-align: left;
         color: #E3CCA1;
     }
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
@@ -132,7 +148,8 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    p{
+
+    p {
         font-family: Rubik;
         font-size: 17px;
         font-weight: 400;
@@ -140,13 +157,16 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    .box{
+
+    .box {
         background-color: #ffff;
         height: 100%;
-        .content-wrap{
+
+        .content-wrap {
             height: 100%;
             padding: 20px 0px;
-            h3{
+
+            h3 {
                 font-family: Rubik;
                 font-size: 25px;
                 font-weight: 400;
@@ -155,7 +175,8 @@ nav{
                 color: #434E6E;
                 padding-left: 10px;
             }
-            h4{
+
+            h4 {
                 font-family: Rubik;
                 font-size: 16px;
                 font-weight: 400;
@@ -164,11 +185,13 @@ nav{
                 color: #091D3E;
                 padding-left: 10px;
             }
-            button{
+
+            button {
                 padding: 5px 30px;
                 margin-left: 10px;
                 width: fit-content;
-                a{
+
+                a {
                     font-family: Rubik;
                     font-size: 15px;
                     font-weight: 500;
@@ -179,20 +202,23 @@ nav{
                 }
             }
         }
-        img{
+
+        img {
             width: 100%;
             height: 500px;
             object-fit: fill;
         }
-    }   
+    }
 }
 
-.gallery{
+.gallery {
     padding: 80px 0px;
+
     @media (max-width:991px) {
         padding: 50px 0px;
     }
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 10.67px;
         font-weight: 500;
@@ -201,7 +227,8 @@ nav{
         text-align: center;
         color: #E3CCA1;
     }
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 35px;
         font-weight: 700;
@@ -210,11 +237,14 @@ nav{
         text-align: center;
         color: #434E6E;
     }
-    .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
         color: #434E6E;
         background-color: #E3CCA1;
         padding: 7px 20px;
     }
+
     .nav-link {
         display: block;
         padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
@@ -226,19 +256,23 @@ nav{
         border: 0;
         transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
     }
-    .small-images{
+
+    .small-images {
         width: 100%;
         height: 300px;
         object-fit: fill;
     }
-    .large-images{
+
+    .large-images {
         width: 100%;
         height: 600px;
         object-fit: fill;
     }
-    button{
+
+    button {
         padding: 10px 30px;
-        a{
+
+        a {
             font-family: Rubik;
             font-size: 21.5px;
             font-weight: 500;
@@ -250,13 +284,15 @@ nav{
     }
 }
 
-.b2b{
+.b2b {
     position: relative;
     z-index: 100;
-    .box{
+
+    .box {
         padding: 50px 40px;
         background-color: #EDEDFF;
-        h6{
+
+        h6 {
             font-family: Rubik;
             font-size: 16px;
             font-weight: 500;
@@ -265,7 +301,8 @@ nav{
             text-align: left;
             color: #434E6E;
         }
-        h2{
+
+        h2 {
             font-family: Rajdhani;
             font-size: 41px;
             font-weight: 700;
@@ -274,14 +311,17 @@ nav{
             text-align: left;
             color: #434E6E;
         }
-        button{
+
+        button {
             background-color: #E3CCA1;
             padding: 20px 100px;
             border: 8px solid #FFFFFF;
+
             @media (max-width:991px) {
                 padding: 20px 55px;
             }
-            a{
+
+            a {
                 font-family: Rajdhani;
                 font-size: 20px;
                 font-weight: 600;
@@ -294,12 +334,13 @@ nav{
     }
 }
 
-.achieve{
+.achieve {
     padding-top: 200px;
     padding-bottom: 90px;
     background-color: #434E6E;
     margin-top: -100px;
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
@@ -308,7 +349,8 @@ nav{
         text-align: center;
         color: #FFFFFF;
     }
-    p{
+
+    p {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
@@ -316,7 +358,8 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    h3{
+
+    h3 {
         font-family: Rubik;
         font-size: 36px;
         font-weight: 500;
@@ -325,7 +368,8 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    li{
+
+    li {
         list-style: none;
         font-family: Rubik;
         font-size: 16px;
@@ -334,14 +378,16 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    span{
+
+    span {
         color: #E3CCA1;
     }
 }
 
-.quote{
+.quote {
     padding: 45px 0px;
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 500;
@@ -350,7 +396,8 @@ nav{
         text-align: center;
         color: #E3CCA1;
     }
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
@@ -359,15 +406,17 @@ nav{
         text-align: center;
         color: #434E6E;
     }
-    .box{
+
+    .box {
         padding: 100px 0px;
         background-color: #F8F8F8;
     }
 }
 
-.form{
+.form {
     padding: 48px 0px;
-    h6{
+
+    h6 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 500;
@@ -376,7 +425,8 @@ nav{
         text-align: center;
         color: #E3CCA1;
     }
-    h2{
+
+    h2 {
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
@@ -385,18 +435,22 @@ nav{
         text-align: center;
         color: #434E6E;
     }
-    img{
+
+    img {
         object-fit: fill;
         width: 100%;
         height: 650px;
+
         @media (max-width:991px) {
-           display: none;
+            display: none;
 
         }
     }
-    .col-lg-7{
+
+    .col-lg-7 {
         background-color: #E3CCA1;
-        input{
+
+        input {
             width: 100%;
             padding: 18px 20px;
             font-family: Rubik;
@@ -406,10 +460,12 @@ nav{
             text-align: left;
             color: #525368;
         }
-        textarea{
+
+        textarea {
             width: 100%;
         }
-        button{
+
+        button {
             background-color: #434E6E;
             padding: 20px 50px;
             font-family: Rubik;
@@ -423,40 +479,45 @@ nav{
     }
 }
 
-footer{
+footer {
     background-color: #434E6E;
-    .foot{
+
+    .foot {
         padding: 40px 0px;
-        .container{
+
+        .container {
             display: flex;
             justify-content: center;
-            img{
+
+            img {
                 width: 150px;
             }
         }
     }
-    h3{
+
+    h3 {
         font-family: Rubik;
-font-size: 18px;
-font-weight: 500;
-line-height: 25px;
-letter-spacing: -0.20000000298023224px;
-text-align: left;
-color: #FFFFFF;
-span{
-    font-family: Rubik;
-font-size: 36px;
-font-weight: 500;
-line-height: 16px;
-letter-spacing: 3.299999952316284px;
-text-align: left;
-color: #E3CCA1;
-}
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: -0.20000000298023224px;
+        text-align: left;
+        color: #FFFFFF;
+
+        span {
+            font-family: Rubik;
+            font-size: 36px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 3.299999952316284px;
+            text-align: left;
+            color: #E3CCA1;
+        }
     }
 }
 
-.bottom-foot{
-    h2{
+.bottom-foot {
+    h2 {
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
