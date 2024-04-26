@@ -39,6 +39,10 @@ nav{
         line-height: 68px;
         text-align: left;
         color: #FFFFFF;
+        @media (max-width:991px) {
+            font-size: 32px;
+            line-height: 32px;
+        }
     }
     p{
         font-family: Rubik;
@@ -67,6 +71,9 @@ nav{
         display: flex;
         align-items: center;
         flex-direction: column;
+        img{
+            border: 3px solid #FFFFFF;
+        }
     }
 }
 
@@ -100,6 +107,7 @@ nav{
         line-height: 30px;
         text-align: left;
         color: #565872;
+        margin-bottom: 0px;
     }
 }
 
@@ -135,36 +143,40 @@ nav{
     .box{
         background-color: #ffff;
         height: 100%;
-        h3{
-            font-family: Rubik;
-            font-size: 25px;
-            font-weight: 400;
-            line-height: 32px;
-            // text-align: center;
-            color: #434E6E;
-            padding-left: 10px;
-        }
-        h4{
-            font-family: Rubik;
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 30px;
-            text-align: left;
-            color: #091D3E;
-            padding-left: 10px;
-        }
-        button{
-            padding: 5px 30px;
-            margin-left: 10px;
-            width: fit-content;
-            a{
+        .content-wrap{
+            height: 100%;
+            padding: 20px 0px;
+            h3{
                 font-family: Rubik;
-                font-size: 15px;
-                font-weight: 500;
-                line-height: 50px;
-                text-align: left;
+                font-size: 25px;
+                font-weight: 400;
+                line-height: 32px;
+                // text-align: center;
                 color: #434E6E;
-                text-decoration: none;
+                padding-left: 10px;
+            }
+            h4{
+                font-family: Rubik;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                text-align: left;
+                color: #091D3E;
+                padding-left: 10px;
+            }
+            button{
+                padding: 5px 30px;
+                margin-left: 10px;
+                width: fit-content;
+                a{
+                    font-family: Rubik;
+                    font-size: 15px;
+                    font-weight: 500;
+                    line-height: 50px;
+                    text-align: left;
+                    color: #434E6E;
+                    text-decoration: none;
+                }
             }
         }
         img{
@@ -422,5 +434,34 @@ footer{
                 width: 150px;
             }
         }
+    }
+    h3{
+        font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+color: #FFFFFF;
+span{
+    font-family: Rubik;
+font-size: 36px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 3.299999952316284px;
+text-align: left;
+color: #E3CCA1;
+}
+    }
+}
+
+.bottom-foot{
+    h2{
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        color: #091D3E;
     }
 }

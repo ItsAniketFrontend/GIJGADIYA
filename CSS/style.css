@@ -41,6 +41,12 @@ nav li a {
   text-align: left;
   color: #FFFFFF;
 }
+@media (max-width: 991px) {
+  .hero-banner h1 {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
 .hero-banner p {
   font-family: Rubik;
   font-size: 16px;
@@ -69,6 +75,9 @@ nav li a {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.hero-banner .img-wrap img {
+  border: 3px solid #FFFFFF;
 }
 
 .who {
@@ -104,6 +113,7 @@ nav li a {
   line-height: 30px;
   text-align: left;
   color: #565872;
+  margin-bottom: 0px;
 }
 
 .products {
@@ -140,7 +150,11 @@ nav li a {
   background-color: white;
   height: 100%;
 }
-.products .box h3 {
+.products .box .content-wrap {
+  height: 100%;
+  padding: 20px 0px;
+}
+.products .box .content-wrap h3 {
   font-family: Rubik;
   font-size: 25px;
   font-weight: 400;
@@ -148,7 +162,7 @@ nav li a {
   color: #434E6E;
   padding-left: 10px;
 }
-.products .box h4 {
+.products .box .content-wrap h4 {
   font-family: Rubik;
   font-size: 16px;
   font-weight: 400;
@@ -157,13 +171,13 @@ nav li a {
   color: #091D3E;
   padding-left: 10px;
 }
-.products .box button {
+.products .box .content-wrap button {
   padding: 5px 30px;
   margin-left: 10px;
   width: -moz-fit-content;
   width: fit-content;
 }
-.products .box button a {
+.products .box .content-wrap button a {
   font-family: Rubik;
   font-size: 15px;
   font-weight: 500;
@@ -435,4 +449,31 @@ footer .foot .container {
 }
 footer .foot .container img {
   width: 150px;
+}
+footer h3 {
+  font-family: Rubik;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: -0.200000003px;
+  text-align: left;
+  color: #FFFFFF;
+}
+footer h3 span {
+  font-family: Rubik;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 3.2999999523px;
+  text-align: left;
+  color: #E3CCA1;
+}
+
+.bottom-foot h2 {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: #091D3E;
 }/*# sourceMappingURL=style.css.map */
