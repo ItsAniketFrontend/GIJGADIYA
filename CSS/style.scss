@@ -170,7 +170,7 @@ nav{
         img{
             width: 100%;
             height: 500px;
-            object-fit: cover;
+            object-fit: fill;
         }
     }   
 }
@@ -287,22 +287,13 @@ nav{
     padding-bottom: 90px;
     background-color: #434E6E;
     margin-top: -100px;
-    h6{
-        font-family: Rubik;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 16px;
-        letter-spacing: 3.299999952316284px;
-        text-align: left;
-        color: #E3CCA1;
-    }
     h2{
         font-family: Rajdhani;
         font-size: 47px;
         font-weight: 700;
         line-height: 60.02px;
         letter-spacing: -1px;
-        text-align: left;
+        text-align: center;
         color: #FFFFFF;
     }
     p{
@@ -313,7 +304,7 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    h5{
+    h3{
         font-family: Rubik;
         font-size: 36px;
         font-weight: 500;
@@ -322,13 +313,17 @@ nav{
         text-align: left;
         color: #FFFFFF;
     }
-    h4{
+    li{
+        list-style: none;
         font-family: Rubik;
         font-size: 16px;
         font-weight: 400;
         line-height: 16px;
         text-align: left;
         color: #FFFFFF;
+    }
+    span{
+        color: #E3CCA1;
     }
 }
 

@@ -175,8 +175,8 @@ nav li a {
 .products .box img {
   width: 100%;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .gallery {
@@ -298,22 +298,13 @@ nav li a {
   background-color: #434E6E;
   margin-top: -100px;
 }
-.achieve h6 {
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 3.2999999523px;
-  text-align: left;
-  color: #E3CCA1;
-}
 .achieve h2 {
   font-family: Rajdhani;
   font-size: 47px;
   font-weight: 700;
   line-height: 60.02px;
   letter-spacing: -1px;
-  text-align: left;
+  text-align: center;
   color: #FFFFFF;
 }
 .achieve p {
@@ -324,7 +315,7 @@ nav li a {
   text-align: left;
   color: #FFFFFF;
 }
-.achieve h5 {
+.achieve h3 {
   font-family: Rubik;
   font-size: 36px;
   font-weight: 500;
@@ -333,13 +324,17 @@ nav li a {
   text-align: left;
   color: #FFFFFF;
 }
-.achieve h4 {
+.achieve li {
+  list-style: none;
   font-family: Rubik;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
   text-align: left;
   color: #FFFFFF;
+}
+.achieve span {
+  color: #E3CCA1;
 }
 
 .quote {
