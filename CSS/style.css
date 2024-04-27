@@ -5,24 +5,33 @@
 }
 
 nav {
-  background-color: #434E6E;
+  background-color: #fff;
 }
 nav li a {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 18px !important;
   font-weight: 500 !important;
   line-height: 90px;
-  color: #FFFFFF !important;
+  color: #000 !important;
 }
 @media (max-width: 991px) {
   nav li a {
     line-height: normal;
   }
 }
+nav button {
+  background-color: #d5a84d;
+  padding: 5px 15px;
+  border: none;
+}
+nav button a {
+  color: #FFF;
+  text-decoration: none;
+}
 
 .hero-banner {
   padding: 50px 0px;
-  background-color: #434e6e;
+  background-color: #13265c;
 }
 @media (max-width: 991px) {
   .hero-banner {
@@ -30,21 +39,22 @@ nav li a {
   }
 }
 .hero-banner h6 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
   letter-spacing: 3px;
   text-align: left;
-  color: #E3CCA1;
+  color: #d5a84d;
 }
 .hero-banner h1 {
-  font-family: Rajdhani;
-  font-size: 70px;
-  font-weight: 600;
-  line-height: 68px;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 38px;
   text-align: left;
   color: #FFFFFF;
+  margin-bottom: 20px;
 }
 @media (max-width: 991px) {
   .hero-banner h1 {
@@ -53,7 +63,7 @@ nav li a {
   }
 }
 .hero-banner p {
-  font-family: Rubik;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -61,19 +71,19 @@ nav li a {
   color: #D9DBE2;
 }
 .hero-banner button {
-  background-color: #E3CCA1;
+  background-color: #d5a84d;
   padding: 5px 20px;
   border: none;
   width: -moz-fit-content;
   width: fit-content;
 }
 .hero-banner button a {
-  font-family: Rubik;
+  font-family: "Mulish", sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 50px;
   text-align: left;
-  color: #434E6E;
+  color: #13265c;
   text-decoration: none;
 }
 .hero-banner .img-wrap {
@@ -94,28 +104,28 @@ nav li a {
   }
 }
 .who h6 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 16px;
   letter-spacing: 3.2999999523px;
   text-align: left;
-  color: #E3CCA1;
+  color: #d5a84d;
 }
 .who h2 {
-  font-family: Rajdhani;
+  font-family: "Playfair Display", serif;
   font-size: 47px;
   font-weight: 700;
   line-height: 60.02px;
   letter-spacing: -1px;
   text-align: left;
-  color: #434E6E;
+  color: #13265c;
 }
 .who p {
-  font-family: Rubik;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 30px;
+  line-height: 24px;
   text-align: left;
   color: #565872;
   margin-bottom: 0px;
@@ -123,19 +133,19 @@ nav li a {
 
 .products {
   padding: 104px 0px;
-  background-color: #434E6E;
+  background-color: #13265c;
 }
 .products h6 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 3.2999999523px;
   text-align: left;
-  color: #E3CCA1;
+  color: #d5a84d;
 }
 .products h2 {
-  font-family: Rajdhani;
+  font-family: "Playfair Display", serif;
   font-size: 47px;
   font-weight: 700;
   line-height: 60.02px;
@@ -160,15 +170,15 @@ nav li a {
   padding: 20px 0px;
 }
 .products .box .content-wrap h3 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 25px;
   font-weight: 400;
   line-height: 32px;
-  color: #434E6E;
+  color: #13265c;
   padding-left: 10px;
 }
 .products .box .content-wrap h4 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
@@ -188,7 +198,7 @@ nav li a {
   font-weight: 500;
   line-height: 50px;
   text-align: left;
-  color: #434E6E;
+  color: #13265c;
   text-decoration: none;
 }
 .products .box img {
@@ -212,7 +222,7 @@ nav li a {
   }
 }
 .gallery h6 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 10.67px;
   font-weight: 500;
   line-height: 10.67px;
@@ -221,18 +231,18 @@ nav li a {
   color: #E3CCA1;
 }
 .gallery h2 {
-  font-family: Rajdhani;
+  font-family: "Playfair Display", serif;
   font-size: 35px;
   font-weight: 700;
   line-height: 40.01px;
   letter-spacing: -0.6666666865px;
   text-align: center;
-  color: #434E6E;
+  color: #13265c;
 }
 .gallery .nav-pills .nav-link.active,
 .gallery .nav-pills .show > .nav-link {
-  color: #434E6E;
-  background-color: #E3CCA1;
+  color: #13265c;
+  background-color: #d5a84d;
   padding: 7px 20px;
 }
 .gallery .nav-link {
@@ -267,7 +277,7 @@ nav li a {
   font-weight: 500;
   line-height: 35.83px;
   text-align: center;
-  color: #434E6E;
+  color: #13265c;
   text-decoration: none;
 }
 
@@ -286,7 +296,7 @@ nav li a {
   line-height: 16px;
   letter-spacing: 3.2999999523px;
   text-align: left;
-  color: #434E6E;
+  color: #13265c;
 }
 .b2b .box h2 {
   font-family: Rajdhani;
@@ -295,10 +305,10 @@ nav li a {
   line-height: 52px;
   letter-spacing: -0.8000000119px;
   text-align: left;
-  color: #434E6E;
+  color: #13265c;
 }
 .b2b .box button {
-  background-color: #E3CCA1;
+  background-color: #d5a84d;
   padding: 20px 100px;
   border: 8px solid #FFFFFF;
 }
@@ -313,14 +323,14 @@ nav li a {
   font-weight: 600;
   line-height: 20px;
   text-align: center;
-  color: #434E6E;
+  color: #13265c;
   text-decoration: none;
 }
 
 .achieve {
   padding-top: 200px;
   padding-bottom: 90px;
-  background-color: #434E6E;
+  background-color: #13265c;
   margin-top: -100px;
 }
 .achieve h2 {
@@ -359,7 +369,7 @@ nav li a {
   color: #FFFFFF;
 }
 .achieve span {
-  color: #E3CCA1;
+  color: #d5a84d;
 }
 
 .quote {
@@ -381,7 +391,7 @@ nav li a {
   line-height: 60.02px;
   letter-spacing: -1px;
   text-align: center;
-  color: #434E6E;
+  color: #13265c;
 }
 .quote .box {
   padding: 100px 0px;
@@ -407,7 +417,7 @@ nav li a {
   line-height: 60.02px;
   letter-spacing: -1px;
   text-align: center;
-  color: #434E6E;
+  color: #13265c;
 }
 .form img {
   -o-object-fit: fill;
@@ -431,13 +441,13 @@ nav li a {
   font-weight: 400;
   line-height: 18.96px;
   text-align: left;
-  color: #525368;
+  color: #13265c;
 }
 .form .col-lg-7 textarea {
   width: 100%;
 }
 .form .col-lg-7 button {
-  background-color: #434E6E;
+  background-color: #13265c;
   padding: 20px 50px;
   font-family: Rubik;
   font-size: 18px;
@@ -449,7 +459,7 @@ nav li a {
 }
 
 footer {
-  background-color: #434E6E;
+  background-color: #13265c;
 }
 footer .foot {
   padding: 40px 0px;
@@ -462,7 +472,7 @@ footer .foot .container img {
   width: 150px;
 }
 footer h3 {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 25px;
@@ -471,13 +481,13 @@ footer h3 {
   color: #FFFFFF;
 }
 footer h3 span {
-  font-family: Rubik;
+  font-family: "Playfair Display", serif;
   font-size: 36px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 3.2999999523px;
   text-align: left;
-  color: #E3CCA1;
+  color: #d5a84d;
 }
 
 .bottom-foot h2 {

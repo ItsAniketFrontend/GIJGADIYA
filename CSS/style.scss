@@ -5,48 +5,57 @@
 }
 
 nav {
-    background-color: #434E6E;
+    background-color: #fff;
 
     li {
         a {
-            font-family: Rubik;
+            font-family: "Playfair Display", serif;
             font-size: 18px !important;
             font-weight: 500 !important;
             line-height: 90px;
-            color: #FFFFFF !important;
+            color: #000 !important;
             @media (max-width:991px) {
                 line-height: normal;
             }
+        }
+    }
+    button{
+        background-color: #d5a84d;
+        padding: 5px 15px;
+        border: none;
+        a{
+            color: #FFF;
+            text-decoration: none;
         }
     }
 }
 
 .hero-banner {
     padding: 50px 0px;
-    background-color: #434e6e;
+    background-color: #13265c;
 
     @media (max-width:991px) {
         padding: 50px 0px;
     }
 
     h6 {
-        font-family: Rubik;
+        font-family:  "Playfair Display", serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 25px;
         letter-spacing: 3px;
         text-align: left;
-        color: #E3CCA1;
+        color: #d5a84d;
     }
 
     h1 {
-        font-family: Rajdhani;
-        font-size: 70px;
-        font-weight: 600;
-        line-height: 68px;
+        font-family:  "Playfair Display", serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 38px;
         text-align: left;
         color: #FFFFFF;
-
+        margin-bottom: 20px;
         @media (max-width:991px) {
             font-size: 32px;
             line-height: 32px;
@@ -54,7 +63,7 @@ nav {
     }
 
     p {
-        font-family: Rubik;
+        font-family: "Mulish", sans-serif;
         font-size: 16px;
         font-weight: 400;
         line-height: 30px;
@@ -63,18 +72,18 @@ nav {
     }
 
     button {
-        background-color: #E3CCA1;
+        background-color: #d5a84d;
         padding: 5px 20px;
         border: none;
         width: fit-content;
 
         a {
-            font-family: Rubik;
+            font-family: "Mulish", sans-serif;
             font-size: 15px;
-            font-weight: 500;
+            font-weight: 600;
             line-height: 50px;
             text-align: left;
-            color: #434E6E;
+            color: #13265c;
             text-decoration: none;
         }
     }
@@ -98,30 +107,30 @@ nav {
     }
 
     h6 {
-        font-family: Rubik;
+        font-family: "Playfair Display", serif;
         font-size: 16px;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 16px;
         letter-spacing: 3.299999952316284px;
         text-align: left;
-        color: #E3CCA1;
+        color: #d5a84d;
     }
 
     h2 {
-        font-family: Rajdhani;
+        font-family: "Playfair Display", serif;
         font-size: 47px;
         font-weight: 700;
         line-height: 60.02px;
         letter-spacing: -1px;
         text-align: left;
-        color: #434E6E;
+        color: #13265c;
     }
 
     p {
-        font-family: Rubik;
+        font-family: "Mulish", sans-serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 24px;
         text-align: left;
         color: #565872;
         margin-bottom: 0px;
@@ -130,20 +139,20 @@ nav {
 
 .products {
     padding: 104px 0px;
-    background-color: #434E6E;
+    background-color: #13265c;
 
     h6 {
-        font-family: Rubik;
+        font-family: "Playfair Display", serif;
         font-size: 16px;
         font-weight: 500;
         line-height: 16px;
         letter-spacing: 3.299999952316284px;
         text-align: left;
-        color: #E3CCA1;
+        color: #d5a84d;
     }
 
     h2 {
-        font-family: Rajdhani;
+        font-family: "Playfair Display", serif;
         font-size: 47px;
         font-weight: 700;
         line-height: 60.02px;
@@ -170,17 +179,17 @@ nav {
             padding: 20px 0px;
 
             h3 {
-                font-family: Rubik;
+                font-family:  "Playfair Display", serif;
                 font-size: 25px;
                 font-weight: 400;
                 line-height: 32px;
                 // text-align: center;
-                color: #434E6E;
+                color: #13265c;
                 padding-left: 10px;
             }
 
             h4 {
-                font-family: Rubik;
+                font-family:  "Playfair Display", serif;
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 30px;
@@ -200,7 +209,7 @@ nav {
                     font-weight: 500;
                     line-height: 50px;
                     text-align: left;
-                    color: #434E6E;
+                    color: #13265c;
                     text-decoration: none;
                 }
             }
@@ -225,7 +234,7 @@ nav {
     }
 
     h6 {
-        font-family: Rubik;
+        font-family:  "Playfair Display", serif;
         font-size: 10.67px;
         font-weight: 500;
         line-height: 10.67px;
@@ -235,19 +244,19 @@ nav {
     }
 
     h2 {
-        font-family: Rajdhani;
+        font-family:  "Playfair Display", serif;
         font-size: 35px;
         font-weight: 700;
         line-height: 40.01px;
         letter-spacing: -0.6666666865348816px;
         text-align: center;
-        color: #434E6E;
+        color: #13265c;
     }
 
     .nav-pills .nav-link.active,
     .nav-pills .show>.nav-link {
-        color: #434E6E;
-        background-color: #E3CCA1;
+        color: #13265c;
+        background-color: #d5a84d;
         padding: 7px 20px;
     }
 
@@ -284,7 +293,7 @@ nav {
             font-weight: 500;
             line-height: 35.83px;
             text-align: center;
-            color: #434E6E;
+            color: #13265c;
             text-decoration: none;
         }
     }
@@ -305,7 +314,7 @@ nav {
             line-height: 16px;
             letter-spacing: 3.299999952316284px;
             text-align: left;
-            color: #434E6E;
+            color: #13265c;
         }
 
         h2 {
@@ -315,11 +324,11 @@ nav {
             line-height: 52px;
             letter-spacing: -0.800000011920929px;
             text-align: left;
-            color: #434E6E;
+            color: #13265c;
         }
 
         button {
-            background-color: #E3CCA1;
+            background-color: #d5a84d;
             padding: 20px 100px;
             border: 8px solid #FFFFFF;
 
@@ -333,7 +342,7 @@ nav {
                 font-weight: 600;
                 line-height: 20px;
                 text-align: center;
-                color: #434E6E;
+                color: #13265c;
                 text-decoration: none;
             }
         }
@@ -343,7 +352,7 @@ nav {
 .achieve {
     padding-top: 200px;
     padding-bottom: 90px;
-    background-color: #434E6E;
+    background-color: #13265c;
     margin-top: -100px;
 
     h2 {
@@ -386,7 +395,7 @@ nav {
     }
 
     span {
-        color: #E3CCA1;
+        color: #d5a84d;
     }
 }
 
@@ -410,7 +419,7 @@ nav {
         line-height: 60.02px;
         letter-spacing: -1px;
         text-align: center;
-        color: #434E6E;
+        color: #13265c;
     }
 
     .box {
@@ -439,7 +448,7 @@ nav {
         line-height: 60.02px;
         letter-spacing: -1px;
         text-align: center;
-        color: #434E6E;
+        color: #13265c;
     }
 
     img {
@@ -464,7 +473,7 @@ nav {
             font-weight: 400;
             line-height: 18.96px;
             text-align: left;
-            color: #525368;
+            color: #13265c;
         }
 
         textarea {
@@ -472,7 +481,7 @@ nav {
         }
 
         button {
-            background-color: #434E6E;
+            background-color: #13265c;
             padding: 20px 50px;
             font-family: Rubik;
             font-size: 18px;
@@ -486,7 +495,7 @@ nav {
 }
 
 footer {
-    background-color: #434E6E;
+    background-color: #13265c;
 
     .foot {
         padding: 40px 0px;
@@ -502,7 +511,7 @@ footer {
     }
 
     h3 {
-        font-family: Rubik;
+        font-family: "Playfair Display", serif;
         font-size: 18px;
         font-weight: 500;
         line-height: 25px;
@@ -511,13 +520,13 @@ footer {
         color: #FFFFFF;
 
         span {
-            font-family: Rubik;
+            font-family: "Playfair Display", serif;
             font-size: 36px;
             font-weight: 500;
             line-height: 16px;
             letter-spacing: 3.299999952316284px;
             text-align: left;
-            color: #E3CCA1;
+            color: #d5a84d;
         }
     }
 }
