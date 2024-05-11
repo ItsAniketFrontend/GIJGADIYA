@@ -7,13 +7,11 @@
     <title>GIJGADIYA</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Demo styles -->
     <style>
         .swiper {
             width: 100%;
@@ -54,27 +52,27 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item px-4">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="#about">About</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#service">Services</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#">Gallery</a>
+                            <a class="nav-link" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#">Our Work</a>
+                            <a class="nav-link" href="#work">Our Work</a>
                         </li>
                         <li class="nav-item px-4">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                     
                 </div>
-                <button><a href="">Know More</a></button>
+                <button><a href="#contact">Know More</a></button>
             </div>
         </nav>
     </header>
@@ -82,8 +80,12 @@
 
     <main>
 
+        <div class="brochure">
+            <button><a href="Gijgadiya-Brochure.pdf">Brochure</a></button>
+        </div>
+
         <!-- hero-banner -->
-        <section class="hero-banner">
+        <section class="hero-banner" id="home">
             <div class="container">
                 <div class="row">
                     <div class=" col-lg-6 col-12  py-1 d-flex justify-content-center flex-column flex-column">
@@ -93,7 +95,7 @@
                     </div>
                     <div class=" col-lg-6 col-12 py-1 ">
                         <div class="img-wrap">
-                            <img src="Images/ashiyana-banner.png" class="img-fluid" alt="">
+                            <img src="Images/art2.png" class="img-fluid" alt="">
                         </div>
                     </div>
                 </div>
@@ -102,11 +104,11 @@
         <!-- hero-banner -->
 
         <!-- who-we-are -->
-        <section class="who">
+        <section class="who" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-12 col-xl-6 py-1">
-                        <img src="Images/ashiyana-2.png" class="img-fluid" alt="">
+                        <img src="Images/art7.png" class="img-fluid" alt="">
                     </div>
                     <div class="col-xl-6 col-lg-6 col-12  py-1 d-flex justify-content-center flex-column">
                         <h6>About Us</h6>
@@ -134,7 +136,7 @@
         <!-- who-we-are -->
 
         <!-- products -->
-        <section class="products">
+        <section class="products" id="service">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-12">
@@ -147,7 +149,7 @@
                     </div>
                     <div class="col-lg-6 col-12 my-2">
                         <div class="box">
-                            <img src="Images/ashiyana-3.png" class="img-fluid" alt="">
+                            <img src="Images/art4.png" class="img-fluid" alt="">
                             <div class="content-wrap">
                                 <h3>UPVC Profile</h3>
                                 <h4> We deliver the finest quality raw materials for UPVC doors and windows. Our uPVC
@@ -159,7 +161,7 @@
 
                     <div class="col-lg-6 col-12 my-2">
                         <div class="box">
-                            <img src="Images/ashiyana-4.png" class="img-fluid" alt="">
+                            <img src="Images/art.png" class="img-fluid" alt="">
                             <div class="content-wrap">
                                 <h3>UPVC G.I. Reinforcement </h3>
                                 <h4>We deliver high-quality uPVC G.I. Reinforcement at the best price. With a commitment
@@ -178,41 +180,34 @@
         <!-- products -->
 
         <!-- gallery -->
-        <section class="gallery">
+        <section class="gallery" id="gallery">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <h6>Portfolio</h6>
                         <h2>Gallery</h2>
                     </div>
-                    <ul class="nav nav-pills mb-3 d-flex justify-content-center gap-3" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">UPVC</button>
-                        </li>
-                    </ul>
                     <div class="tab-content d-flex justify-content-center" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
                             aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row">
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-4.png" class="img-fluid" alt="">
+                                    <img src="Images/art.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-5.png" class="img-fluid" alt="">
+                                    <img src="Images/art3.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-6.png" class="img-fluid" alt="">
+                                    <img src="Images/art8.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-7.png" class="img-fluid" alt="">
+                                    <img src="Images/rt6.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-8.png" class="img-fluid" alt="">
+                                    <img src="Images/art2.png" class="img-fluid" alt="">
                                 </div>
                                 <div class="col-lg-4 col-6 p-1">
-                                    <img src="Images/ashiyana-1.png" class="img-fluid" alt="">
+                                    <img src="Images/art7.png" class="img-fluid" alt="">
                                 </div>
                             </div>
                         </div>
@@ -243,7 +238,7 @@
         </section>
         <!-- b2b -->
 
-        <section class="achieve">
+        <section class="achieve" >
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -257,7 +252,7 @@
                                 height="24px" alt="">You must be a manufacturer or Fabricator of uPVC doors & windows
                         </li>
                         <li class="d-flex align-items-center gap-3"><img src="Images/right-arrow.png" width="24px"
-                                height="24px" alt="">The minimum order value/investment should be Rs. 20 Lac.</li>
+                                height="24px" alt="">No Minimum Order Value</li>
                     </div>
                     <div class="col-lg-6 col-12 my-3">
                         <h3><span>Benefits</span> to our B2B Partner</h3>
@@ -271,7 +266,7 @@
         </section>
 
         <!-- quote -->
-        <section class="quote">
+        <!-- <section class="quote" id="work">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
@@ -295,7 +290,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- quote -->
 
         <!-- form -->
@@ -360,6 +355,7 @@
             </div>
         </div>
     </footer>
+
     <div class="bottom-foot py-2">
         <div class="container text-center">
             <h2>©Gijgadiya 2024 | all rights reserved</h2>
@@ -395,6 +391,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+
 </body>
 </html>
